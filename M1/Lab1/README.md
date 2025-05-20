@@ -1,4 +1,4 @@
-#  M1 Lab 1 - Interact with Final Demo
+#  M1 Lab 1 - Interact with the Streamlit Demo
 
 In this first lab, you'll interact with the final demo app that we'll build out in this course, which is a dashboard app for the customer reviews subset of the Avalanche data set.
 
