@@ -1,4 +1,4 @@
-# M1 Lab 3
+# M1 Lab 3 - Build a Functional Streamlit App
 
 In this third lab, we'll continue with the code from Lab 2 and build a functional Streamlit app. 
 
