@@ -12,7 +12,7 @@ Once this is completed, the Avalanche data can be accessed from the `@avalanche_
 
 For example, to list contents of the stage run this SQL query:
 
-``` 
+```SQL 
 ls @avalanche_db.avalanche_schema.customer_reviews;
 ``` 
 
