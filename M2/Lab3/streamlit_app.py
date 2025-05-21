@@ -11,8 +11,8 @@ st.title("🏔️ Avalanche Data Set")
 
 # df = session.sql("SELECT * FROM AVALANCHE_DB.PUBLIC.CUSTOMER_REVIEWS").to_pandas()
 # df = pd.read_csv("data/customer_reviews.csv")
-GITHUB_RAW_URL = 'https://raw.githubusercontent.com/lescalonag33/module2/refs/heads/master/M2/Lab3/data/customer_reviews.csv'
-df = pd.read_csv(GITHUB_RAW_URL, index_col=0)
+GITHUB_URL = 'https://raw.githubusercontent.com/lescalonag33/module2/refs/heads/master/M2/Lab3/data/customer_reviews.csv'
+df = pd.read_csv(GITHUB_URL, index_col=0)
 
 # Ensure SENTIMENT_SCORE is numeric
 df['SENTIMENT_SCORE'] = pd.to_numeric(df['SENTIMENT_SCORE'])
