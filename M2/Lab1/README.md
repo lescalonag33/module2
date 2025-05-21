@@ -8,7 +8,7 @@ Follow the instructions provided in `setup.sql` to create a database, schema, st
 
 ## Using the Data
 
-Once this is completed, the Avalanche data can be accessed from the `@avalanche_db.avalanche_schema.customer_reviews;` stage directly.
+Once this is completed, the Avalanche data can be accessed from the `@avalanche_db.avalanche_schema.customer_reviews` stage directly.
 
 For example, to list contents of the stage run this SQL query:
 
