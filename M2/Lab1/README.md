@@ -18,7 +18,7 @@ ls @avalanche_db.avalanche_schema.customer_reviews;
 
 To read contents of a file:
 
-``` 
+```sql 
 -- Read single file
 `SELECT
   SNOWFLAKE.CORTEX.PARSE_DOCUMENT(
