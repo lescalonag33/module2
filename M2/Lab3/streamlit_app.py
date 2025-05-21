@@ -14,8 +14,8 @@ st.set_page_config(page_title="Avalanche Data Set",
 
 st.title("🏔️ Avalanche Data Set")
 
-df = session.sql("SELECT * FROM AVALANCHE_DB.PUBLIC.CUSTOMER_REVIEWS").to_pandas()
-# df = pd.read_csv("data/customer_reviews.csv")
+# df = session.sql("SELECT * FROM AVALANCHE_DB.PUBLIC.CUSTOMER_REVIEWS").to_pandas()
+df = pd.read_csv("data/customer_reviews.csv")
 
 # Ensure SENTIMENT_SCORE is numeric
 df['SENTIMENT_SCORE'] = pd.to_numeric(df['SENTIMENT_SCORE'])
