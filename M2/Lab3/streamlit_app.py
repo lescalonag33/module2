@@ -1,11 +1,12 @@
-# M2 Lab 3
+# M2 Lab3
 import streamlit as st
 import altair as alt
 import pandas as pd
-# from snowflake.snowpark.context import get_active_session
+from snowflake.snowpark.context import get_active_session
+
 
 # Get the current credentials
-# session = get_active_session()
+session = get_active_session()
 
 st.set_page_config(page_title="Avalanche Data Set",
                     page_icon="🏔️",
@@ -13,9 +14,7 @@ st.set_page_config(page_title="Avalanche Data Set",
 
 st.title("🏔️ Avalanche Data Set")
 
-# df = session.sql("SELECT * FROM AVALANCHE.PUBLIC.CUSTOMER_REVIEWS").to_pandas()
-GITHUB_RAW_URL = "https://raw.githubusercontent.com/lescalonag33/module2/refs/heads/master/M2/Lab3/data/customer_reviews.csv"
-df = pd.read_csv(GITHUB_RAW_URL, index_col=0)
+df = session.sql("SELECT * FROM AVALANCHE_DB.PUBLIC.CUSTOMER_REVIEWS").to_pandas()
 # df = pd.read_csv("data/customer_reviews.csv")
 
 # Ensure SENTIMENT_SCORE is numeric
