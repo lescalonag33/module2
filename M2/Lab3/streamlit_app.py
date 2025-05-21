@@ -2,8 +2,6 @@
 import streamlit as st
 import altair as alt
 import pandas as pd
-from snowflake.snowpark.context import get_active_session
-
 
 # Get the current credentials
 session = get_active_session()
