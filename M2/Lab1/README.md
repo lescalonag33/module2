@@ -10,6 +10,9 @@ Follow the instructions provided in `setup.sql` to create a database, schema, st
 
 Once this is completed, the Avalanche data can be accessed from the `@avalanche_db.avalanche_schema.customer_reviews;` stage directly.
 
+For example, to list contents of the stage run this SQL query:
+ls @avalanche_db.avalanche_schema.customer_reviews;
+
 ## Downloading the Lab Notebook
 To follow along with the lab video:
 1. From the Github Repo, browse to the folder M2/Lab1 and download the customer-reviews.ipynb file.
