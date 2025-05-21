@@ -3,9 +3,6 @@ import streamlit as st
 import altair as alt
 import pandas as pd
 
-# Get the current credentials
-session = get_active_session()
-
 st.set_page_config(page_title="Avalanche Data Set",
                     page_icon="🏔️",
                     layout="wide")
