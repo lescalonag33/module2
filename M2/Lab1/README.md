@@ -28,8 +28,23 @@ To read contents of a file:
   ) AS layout;`
 ```
 
-## Downloading the Lab Notebook
-To follow along with the lab video:
+## Data Processing
+
+Next, we'll use the structured data to create a bar chart to visualize the daily sentiment score and the product sentiment score.
+
+- PARSE_DOCUMENT function to extract text and data from unstructured DOCX files.
+- SENTIMENT function to calculate the sentiment score of extracted customer review text
+- SUMMARIZE function to return a concise summary of the customer review text
+- TRANSLATE: function to translate given text from/to any supported language
+
+## Data Visualization
+Then, we'll create a bar chart to visualize the daily sentiment score and the product sentiment score.
+
+
+## Running the Notebook
+Download the Notebook in `IPYNB` format (`customer-reviews.ipynb`) and upload to your Snowflake Snowsight account to run the Snowflake Notebook.
+
+
 1. From the Github Repo, browse to the folder M2/Lab1 and download the customer-reviews.ipynb file.
 2. In your Snowflake Snowsight account, from the left sidebar menu, select “Projects/Notebooks”
 3. To the right of the bright blue “+Notebook” button on the top-right of your screen, click on the down arrow to bring up a drop-down menu
@@ -125,5 +140,3 @@ PARSE_DOCUMENT function to extract text and data from unstructured DOCX files.
 - SUMMARIZE function to return a concise summary of the customer review text
 - TRANSLATE: function to translate given text from/to any supported language
 
-## Data Visualization
-Then, we'll create a bar chart to visualize the daily sentiment score and the product sentiment score.
