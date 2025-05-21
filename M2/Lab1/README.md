@@ -1,6 +1,14 @@
-# M2 Lab 1 Building an Interactive Prototype in a Snowflake Notebook
+# M2 Lab 1 
 
-In Module 2 Lab 1, we'll prepare the Avalanche Customer Reviews dataset from an unstructured format to a structured format in Snowflake Notebooks.
+In this lab, we'll prepare the Avalanche data namely the Customer Reviews subset from an unstructured format to a structured format in Snowflake Notebooks.
+
+## Setup
+
+Follow the instructions provided in `setup.sql` to create a database, schema, stage as well as upload files for the Avalanche data.
+
+## Using the Data
+
+Once this is completed, the Avalanche data can be accessed from the `@avalanche_db.avalanche_schema.customer_reviews;` stage directly.
 
 ## Downloading the Lab Notebook
 To follow along with the lab video:
