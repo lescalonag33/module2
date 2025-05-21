@@ -16,6 +16,18 @@ For example, to list contents of the stage run this SQL query:
 ls @avalanche_db.avalanche_schema.customer_reviews;
 ``` 
 
+To read contents of a file:
+
+``` 
+-- Read single file
+`SELECT
+  SNOWFLAKE.CORTEX.PARSE_DOCUMENT(
+    @avalanche_db.avalanche_schema.customer_reviews,
+    'review-01.docx',
+    {'mode': 'layout'}
+  ) AS layout;`
+```
+
 ## Downloading the Lab Notebook
 To follow along with the lab video:
 1. From the Github Repo, browse to the folder M2/Lab1 and download the customer-reviews.ipynb file.
