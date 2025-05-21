@@ -38,7 +38,7 @@ ls @avalanche_db.avalanche_schema.customer_reviews;
 -- SELECT
 --   SNOWFLAKE.CORTEX.PARSE_DOCUMENT(
 --     @avalanche_db.avalanche_schema.customer_reviews,
---     'review-01.docx',
+--     'review-001.docx',
 --     {'mode': 'layout'}
 --   ) AS layout;
 
